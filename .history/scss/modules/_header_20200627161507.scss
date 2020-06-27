@@ -16,15 +16,11 @@ nav {
     list-style: none;
     font-size: 16px;
   }
-  
-  li{
-    text-align: center;
-  }
 
   .logo_2 {
     height: 0.5%;
     width: 10.78%;
-    grid-column: 2/3;
+    justify-content: flex-start;
     order: -1;
     border: solid red 3px;
   }

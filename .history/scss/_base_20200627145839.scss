@@ -7,7 +7,6 @@
 body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: 0.33%;
   font-family: $font;
   background-color: $whiteBackground;
   width: 100%;

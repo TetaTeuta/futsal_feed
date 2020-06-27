@@ -4,7 +4,7 @@
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   grid-column: 4/span 3;
   height: 100%;
@@ -16,16 +16,8 @@ nav {
     list-style: none;
     font-size: 16px;
   }
-  
-  li{
-    text-align: center;
-  }
 
   .logo_2 {
-    height: 0.5%;
-    width: 10.78%;
-    grid-column: 2/3;
-    order: -1;
-    border: solid red 3px;
+    width: 200px;
   }
 }

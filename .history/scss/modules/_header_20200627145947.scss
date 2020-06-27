@@ -1,0 +1,22 @@
+@import '../vars';
+@import '../base';
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  border: solid red 3px;
+  height: 100%;
+  width: 81.04%;
+
+  ul {
+    @extend nav;
+    list-style: none;
+    border: solid pink 3px;
+  }
+
+  .logo_2 {
+    width: 200px;
+  }
+}
