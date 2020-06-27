@@ -1,0 +1,22 @@
+$whiteBackground : #D8D8D8;
+$whiteFont : #FFFFFF;
+$blackFont : #0C0C0C;
+$font : 'Inter', sans-serif;
+$primary: #DF542E;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  font-family: $font;
+  background-color: $whiteBackground;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  background-color: blue($color: #000000);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: red;
+   &:hover{
+    color: blue;
+  }
+}
