@@ -22,8 +22,6 @@ header {
 
       ul {
         @extend nav;
-        height: 25px;
-  width: 529px;
         list-style: none;
         grid-column: 4/4;
         color: #0C0C0C;
@@ -37,13 +35,14 @@ header {
     }
   
   .logo_2 {
-    height: 37px;
-    width: 207px;
-    margin-top: 1%;
+    width: 10.78%;
+    height: 0.5%;
+    grid-column: 2;
+    order: -1;
+    border: solid red 3px;
   }
   
   .btn__send-news {
-    grid-column: 11;
     height: 56px;
     width: 153px;
     border: 1px solid #111111;
@@ -51,9 +50,9 @@ header {
   }
   
   .socialm {
+    border: solid blue 3px;
     height: 32px;
     width: 176px;
-    margin-top: 0.7%;
   }
 
  }
