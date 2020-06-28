@@ -45,9 +45,9 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-image: url("/assets/bitmap.png");
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 header nav, header nav ul {
@@ -89,6 +89,11 @@ header .logo_2 {
   height: 37px;
   width: 207px;
   margin-top: 1%;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 header .btn__send-news {
@@ -98,12 +103,19 @@ header .btn__send-news {
   width: 153px;
   border: 1px solid #111111;
   font-weight: 700;
+  margin-left: 1%;
 }
 
 header .socialm {
   height: 32px;
   width: 176px;
   margin-top: 0.7%;
+}
+
+header .rectangle {
+  height: 56px;
+  width: 1px;
+  border: 1px solid #111111;
 }
 
 * {
@@ -136,9 +148,9 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-image: url("/assets/bitmap.png");
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 header nav, header nav ul {
@@ -180,6 +192,11 @@ header .logo_2 {
   height: 37px;
   width: 207px;
   margin-top: 1%;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 header .btn__send-news {
@@ -189,11 +206,18 @@ header .btn__send-news {
   width: 153px;
   border: 1px solid #111111;
   font-weight: 700;
+  margin-left: 1%;
 }
 
 header .socialm {
   height: 32px;
   width: 176px;
   margin-top: 0.7%;
+}
+
+header .rectangle {
+  height: 56px;
+  width: 1px;
+  border: 1px solid #111111;
 }
 /*# sourceMappingURL=index.css.map */
