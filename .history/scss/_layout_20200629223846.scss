@@ -1,19 +1,19 @@
 @import 'vars';
 
 .content1{
-  grid-column: 1/12;
+  grid-column: 2/12;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 950px;
+  width: 1920px;
   opacity: 0.8;
 }
-
 
 .content1__button{
   height: 44px;
   width: 134px;
   background-color: $primary;
-  grid-column: 2 / 3;
 }
 
 .content1__paragraf{

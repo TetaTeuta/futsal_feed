@@ -8,11 +8,59 @@ body {
   display: grid;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: 56px 950px 1fr;
+      grid-template-rows: 56px 950px 1fr;
   grid-gap: 24px;
   font-family: "Inter", sans-serif;
   background-color: #F4F4F4;
   width: 1920px;
   height: 7371px;
+}
+
+.content1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 11;
+  grid-column: 1/12;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0.8;
+}
+
+.content1__button {
+  height: 44px;
+  width: 134px;
+  background-color: #DF542E;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+}
+
+.content1__paragraf {
+  height: 288px;
+  width: 924px;
+  color: #FFFFFF;
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 72px;
+}
+
+.content1__date {
+  height: 18px;
+  width: 85px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
 }
 
 * {
@@ -25,6 +73,8 @@ body {
   display: grid;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: 56px 950px 1fr;
+      grid-template-rows: 56px 950px 1fr;
   grid-gap: 24px;
   font-family: "Inter", sans-serif;
   background-color: #F4F4F4;
@@ -119,6 +169,8 @@ body {
   display: grid;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: 56px 950px 1fr;
+      grid-template-rows: 56px 950px 1fr;
   grid-gap: 24px;
   font-family: "Inter", sans-serif;
   background-color: #F4F4F4;

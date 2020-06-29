@@ -1,0 +1,11 @@
+@import 'vars';
+
+.content1{
+  grid-column: 1/12;
+  display: flex;
+  flex-direction: row;
+  height: 950px;
+  width: 1920px;
+  background-image: url(".assets/backimg.png");
+  opacity: 0.8;
+}

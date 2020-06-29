@@ -1,0 +1,9 @@
+@import 'vars';
+
+.content1{
+  grid-column: 1/12;
+  display: flex;
+  flex-direction: row;
+  height: 950px;
+  width: 1920px;
+}
