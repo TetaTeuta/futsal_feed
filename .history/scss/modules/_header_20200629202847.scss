@@ -5,16 +5,19 @@
 header {
   grid-column: 2/span 10;
   height: 56px;
+  width: 1556px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
 
   nav {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;     
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 81.04%;     
     }
 
   ul {
@@ -46,6 +49,7 @@ header {
     border: 1px solid #111111;
     font-weight: 700;  
     margin-left:  1%;  
+    justify-content: flex-end;
   }
   
   .socialm {

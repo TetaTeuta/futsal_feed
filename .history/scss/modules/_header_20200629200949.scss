@@ -5,16 +5,19 @@
 header {
   grid-column: 2/span 10;
   height: 56px;
+  width: 1556px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
 
   nav {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;     
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 81.04%;     
     }
 
   ul {
@@ -22,13 +25,15 @@ header {
       height: 25px;
       width: 529px;
       list-style: none;
+      grid-column: 4 span 2;
       color: $blackFont;
       font-family: $font;
       font-size: 16px;
       font-weight: 800;
       letter-spacing: 0;
       line-height: 24px;
-      justify-content: space-around;
+      justify-content: space-between;
+      
     }
   
   .logo_2 {

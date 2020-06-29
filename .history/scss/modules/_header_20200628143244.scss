@@ -5,30 +5,33 @@
 header {
   grid-column: 2/span 10;
   height: 56px;
+  width: 1556px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 
-  nav {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;     
-    }
+    nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      height: 100%;
+      width: 81.04%;
 
-  ul {
-    @extend nav;
-      height: 25px;
-      width: 529px;
-      list-style: none;
-      color: $blackFont;
-      font-family: $font;
-      font-size: 16px;
-      font-weight: 800;
-      letter-spacing: 0;
-      line-height: 24px;
-      justify-content: space-around;
+      ul {
+        @extend nav;
+        grid-column: 4/7;
+
+        height: 25px;
+        width: 529px;
+        list-style: none;
+        color: #0C0C0C;
+        font-family: $font;
+        font-size: 16px;
+        font-weight: 800;
+        letter-spacing: 0;
+        line-height: 24px;
+      }
     }
   
   .logo_2 {
@@ -51,15 +54,13 @@ header {
   .socialm {
     height: 32px;
     width: 176px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    margin-top: 0.7%;
   }
 
   .rectangle {
     height: 56px;
-    width: 1px;
-    border: 1px solid #111111;
+  width: 1px;
+  border: 1px solid #111111;
   }
 
  }

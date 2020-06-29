@@ -5,16 +5,21 @@
 header {
   grid-column: 2/span 10;
   height: 56px;
+  width: 1556px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
 
   nav {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;     
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 81.04%;   
+    grid-column: 4;
+  
     }
 
   ul {
@@ -29,6 +34,7 @@ header {
       letter-spacing: 0;
       line-height: 24px;
       justify-content: space-around;
+      
     }
   
   .logo_2 {

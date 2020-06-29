@@ -3,17 +3,18 @@
 
 
 header {
-  grid-column: 2/span 10;
-  height: 56px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  display: grid;
+  max-width: 1920px;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 24px;
+  height: 980px;
 
   nav {
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
     width: 100%;     
     }
 
