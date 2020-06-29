@@ -50,6 +50,9 @@ header {
   .nav__search {
     height: 32px;
     width: 176px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
   .nav__rectangle {
@@ -57,6 +60,7 @@ header {
     width: 1px;
     border: 1px solid #111111;
   }
+
  }
 
  
