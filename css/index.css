@@ -49,7 +49,7 @@ header {
           justify-content: flex-start;
 }
 
-header nav, header ul {
+header nav, header .nav__menu {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -66,7 +66,7 @@ header nav, header ul {
   width: 100%;
 }
 
-header ul {
+header .nav__menu {
   height: 25px;
   width: 529px;
   list-style: none;
@@ -80,7 +80,7 @@ header ul {
       justify-content: space-around;
 }
 
-header .logo_2 {
+header .nav__logo_2 {
   height: 37px;
   width: 207px;
   margin-top: 1%;
@@ -91,7 +91,7 @@ header .logo_2 {
           justify-content: flex-start;
 }
 
-header .btn__send-news {
+header .nav_button--send {
   -ms-grid-column: 11;
   grid-column: 11;
   height: 56px;
@@ -101,7 +101,7 @@ header .btn__send-news {
   margin-left: 1%;
 }
 
-header .socialm {
+header .nav__search {
   height: 32px;
   width: 176px;
   display: -webkit-box;
@@ -115,7 +115,7 @@ header .socialm {
       justify-content: space-around;
 }
 
-header .rectangle {
+header .nav__rectangle {
   height: 56px;
   width: 1px;
   border: 1px solid #111111;
@@ -155,7 +155,7 @@ header {
           justify-content: flex-start;
 }
 
-header nav, header ul {
+header nav, header .nav__menu {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -172,7 +172,7 @@ header nav, header ul {
   width: 100%;
 }
 
-header ul {
+header .nav__menu {
   height: 25px;
   width: 529px;
   list-style: none;
@@ -186,7 +186,7 @@ header ul {
       justify-content: space-around;
 }
 
-header .logo_2 {
+header .nav__logo_2 {
   height: 37px;
   width: 207px;
   margin-top: 1%;
@@ -197,7 +197,7 @@ header .logo_2 {
           justify-content: flex-start;
 }
 
-header .btn__send-news {
+header .nav_button--send {
   -ms-grid-column: 11;
   grid-column: 11;
   height: 56px;
@@ -207,7 +207,7 @@ header .btn__send-news {
   margin-left: 1%;
 }
 
-header .socialm {
+header .nav__search {
   height: 32px;
   width: 176px;
   display: -webkit-box;
@@ -221,7 +221,7 @@ header .socialm {
       justify-content: space-around;
 }
 
-header .rectangle {
+header .nav__rectangle {
   height: 56px;
   width: 1px;
   border: 1px solid #111111;

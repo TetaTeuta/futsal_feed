@@ -17,7 +17,7 @@ header {
     width: 100%;     
     }
 
-  .nav__menu {
+  ul {
     @extend nav;
       height: 25px;
       width: 529px;
@@ -39,7 +39,7 @@ header {
     justify-content: flex-start;
   }
   
-  .nav_button--send {
+  .btn__send-news {
     grid-column: 11;
     height: 56px;
     width: 153px;
@@ -48,7 +48,7 @@ header {
     margin-left:  1%;  
   }
   
-  .nav__search {
+  .socialm {
     height: 32px;
     width: 176px;
     display: flex;
@@ -56,7 +56,7 @@ header {
     justify-content: space-around;
   }
 
-  .nav__rectangle {
+  .rectangle {
     height: 56px;
     width: 1px;
     border: 1px solid #111111;
