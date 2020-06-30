@@ -19,8 +19,8 @@ body {
 
 .content1 {
   -ms-grid-column: 1;
-  -ms-grid-column-span: 11;
-  grid-column: 1/12;
+  -ms-grid-column-span: 12;
+  grid-column: 1/ span 12;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,12 +35,12 @@ body {
 }
 
 .content1__button {
-  height: 44px;
+  height: 45px;
   width: 134px;
   background-color: #DF542E;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2 / 3;
+  margin-left: 8.4%;
+  padding: 0;
+  border: none;
 }
 
 .content1__paragraf {
@@ -51,6 +51,7 @@ body {
   font-weight: bold;
   letter-spacing: 0;
   line-height: 72px;
+  margin-left: 8.4%;
 }
 
 .content1__date {
@@ -61,6 +62,7 @@ body {
   font-weight: 600;
   letter-spacing: 0;
   line-height: 18px;
+  margin-left: 8.4%;
 }
 
 * {
