@@ -76,16 +76,8 @@
 
 // ***************************************  BLOCK  *************************************** 
 
-.block__small{
+.block{
   grid-column: 2 / 6;
-}
-
-.block__big{
-  height: 300px;
-  // display: flex;
-  // flex-direction: row;  
-  // justify-content: center;
-  
 }
 
 .block__rectangle{
@@ -135,6 +127,5 @@
 
 .block__img {
   float: right;
-  
-  
+  justify-content: center;
 }

@@ -80,11 +80,10 @@
   grid-column: 2 / 6;
 }
 
-.block__big{
-  height: 300px;
-  // display: flex;
-  // flex-direction: row;  
-  // justify-content: center;
+.block_big{
+  
+    height: 186px;
+    width: 608px;
   
 }
 
@@ -135,6 +134,6 @@
 
 .block__img {
   float: right;
-  
+ 
   
 }

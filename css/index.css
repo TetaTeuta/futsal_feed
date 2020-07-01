@@ -104,10 +104,14 @@ body {
   line-height: 28px;
 }
 
-.block {
+.block__small {
   -ms-grid-column: 2;
   -ms-grid-column-span: 4;
   grid-column: 2 / 6;
+}
+
+.block__big {
+  height: 300px;
 }
 
 .block__rectangle, .block__rectangle--light, .block__rectangle--short {
@@ -150,6 +154,10 @@ body {
   color: rgba(0, 0, 0, 0.5);
   margin-left: 1.5%;
   margin-right: 1.5%;
+}
+
+.block__img {
+  float: right;
 }
 
 * {
