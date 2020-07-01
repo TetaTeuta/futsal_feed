@@ -131,7 +131,7 @@
   height: 553px;
   width: 450px;
   grid-column: 9 / span 3;
-  margin-top: 23%;
+  margin-top: 9%;
 
   .table1__header{
     height: 28px;
@@ -146,26 +146,24 @@
   .table__row{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  }
 
-    .table1__number{
-      height: 16px;
-      width: 24px;
-      color: rgba(16,16,16,0.5);
-      font-size: 14px;
-      font-weight: 800;
-      letter-spacing: 0;
-      line-height: 16px;
-    }
-    .table__text{
-      height: 64px;
-      width: 378px;
-      color: $black;
-      font-size: 21px;
-      font-weight: 500;
-      letter-spacing: 0;
-      line-height: 32px;
-    }
+  .table1__number{
+    height: 16px;
+    width: 3px;
+    color: rgba(16,16,16,0.5);
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+  .table__text{
+    height: 64px;
+    width: 378px;
+    color: $black;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 32px;
   }
 }

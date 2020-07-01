@@ -7,7 +7,7 @@
 .section1{
   grid-column: 1/ span 12;
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
   justify-content: center;
   opacity: 0.8;
 }
@@ -17,14 +17,6 @@
   width: 134px;
   background-color: $primary;
   margin-left: 8.4%;
-  padding: 0;
-  border: none;
-}
-
-.block__button2{
-  height: 45px;
-  width: 134px;
-  background-color: $primary;
   padding: 0;
   border: none;
 }
@@ -56,12 +48,10 @@
 
 
 .section2{
-  grid-column: 2/ span 6;
+  grid-column: 2/ span 11;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding-top: 7%;
-  padding-bottom: 6%;
+  justify-content: stretch;
 }
 
 .latest{
@@ -76,11 +66,8 @@
 
 // ***************************************  BLOCK  *************************************** 
 
-.block{
-  grid-column: 2 / 6;
-}
-
 .block__rectangle{
+  box-sizing: border-box;
   height: 1px;
   width: 924px;
   border: 1px solid #000000;
@@ -89,13 +76,6 @@
 .block__rectangle--light{
   @extend .block__rectangle;
   border: 1px solid rgba(0,0,0,0.2); 
-  margin-top: 6%;
-  
-}
-
-.block__rectangle--short{
-  @extend .block__rectangle;
-  width: 450px;
 }
 
 .block__paragraph{
@@ -130,8 +110,6 @@
 .table1{
   height: 553px;
   width: 450px;
-  grid-column: 9 / span 3;
-  margin-top: 23%;
 
   .table1__header{
     height: 28px;
@@ -143,29 +121,14 @@
     line-height: 28px;
   }
 
-  .table__row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    .table1__number{
-      height: 16px;
-      width: 24px;
-      color: rgba(16,16,16,0.5);
-      font-size: 14px;
-      font-weight: 800;
-      letter-spacing: 0;
-      line-height: 16px;
-    }
-    .table__text{
-      height: 64px;
-      width: 378px;
-      color: $black;
-      font-size: 21px;
-      font-weight: 500;
-      letter-spacing: 0;
-      line-height: 32px;
-    }
+  .table1__number{
+    height: 16px;
+    width: 24px;
+    color: rgba(16,16,16,0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 16px;
   }
 }

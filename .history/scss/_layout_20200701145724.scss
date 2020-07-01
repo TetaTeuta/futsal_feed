@@ -21,14 +21,6 @@
   border: none;
 }
 
-.block__button2{
-  height: 45px;
-  width: 134px;
-  background-color: $primary;
-  padding: 0;
-  border: none;
-}
-
 .section1__paragraph{
   height: 288px;
   width: 924px;
@@ -59,9 +51,7 @@
   grid-column: 2/ span 6;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding-top: 7%;
-  padding-bottom: 6%;
+  justify-content: baseline;
 }
 
 .latest{
@@ -89,8 +79,6 @@
 .block__rectangle--light{
   @extend .block__rectangle;
   border: 1px solid rgba(0,0,0,0.2); 
-  margin-top: 6%;
-  
 }
 
 .block__rectangle--short{
@@ -130,8 +118,10 @@
 .table1{
   height: 553px;
   width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   grid-column: 9 / span 3;
-  margin-top: 23%;
 
   .table1__header{
     height: 28px;
@@ -143,29 +133,22 @@
     line-height: 28px;
   }
 
-  .table__row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    .table1__number{
-      height: 16px;
-      width: 24px;
-      color: rgba(16,16,16,0.5);
-      font-size: 14px;
-      font-weight: 800;
-      letter-spacing: 0;
-      line-height: 16px;
-    }
-    .table__text{
-      height: 64px;
-      width: 378px;
-      color: $black;
-      font-size: 21px;
-      font-weight: 500;
-      letter-spacing: 0;
-      line-height: 32px;
-    }
+  .table1__number{
+    height: 16px;
+    width: 24px;
+    color: rgba(16,16,16,0.5);
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+  .table__text{
+    height: 64px;
+    width: 378px;
+    color: $black;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 32px;
   }
 }
