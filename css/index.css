@@ -152,61 +152,6 @@ body {
   margin-right: 1.5%;
 }
 
-.table1 {
-  height: 553px;
-  width: 450px;
-  -ms-grid-column: 9;
-  -ms-grid-column-span: 3;
-  grid-column: 9 / span 3;
-  margin-top: 23%;
-}
-
-.table1 .table1__header {
-  height: 28px;
-  width: 360px;
-  color: #000000;
-  font-size: 18px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  line-height: 28px;
-}
-
-.table1 .table__row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.table1 .table__row .table1__number {
-  height: 16px;
-  width: 24px;
-  color: rgba(16, 16, 16, 0.5);
-  font-size: 14px;
-  font-weight: 800;
-  letter-spacing: 0;
-  line-height: 16px;
-}
-
-.table1 .table__row .table__text {
-  height: 64px;
-  width: 378px;
-  color: #101010;
-  font-size: 21px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 32px;
-}
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -301,6 +246,61 @@ header .nav__rectangle {
   height: 56px;
   width: 1px;
   border: 1px solid #111111;
+}
+
+.table1 {
+  height: 553px;
+  width: 450px;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 3;
+  grid-column: 9 / span 3;
+  margin-top: 23%;
+}
+
+.table1 .table1__header {
+  height: 28px;
+  width: 360px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+.table1 .table__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.table1 .table__row .table1__number {
+  height: 16px;
+  width: 24px;
+  color: rgba(16, 16, 16, 0.5);
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.table1 .table__row .table__text {
+  height: 64px;
+  width: 378px;
+  color: #101010;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 32px;
 }
 
 * {
