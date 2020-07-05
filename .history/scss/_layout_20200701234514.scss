@@ -98,7 +98,7 @@
 
 .block__paragraph{
   height: 80px;
-  width: 60%;
+  width: 608px;
   color: #111111;
   font-size: 28px;
   font-weight: 600;
@@ -129,15 +129,18 @@
 .block__big{
   @extend .block__small;
   grid-column: 2 / 7;
+  // height: 186px;
 }
 
 .block__paragraph--big{
   @extend .block__paragraph;
-  flex-direction: row;
-  width: 100%;
-  // height: 40%;
+  width: 60%;
+
+  .block__img {
+    float: right;
+  }
+
 }
 
-.block__img {
-  float: right;
-}
+
+
