@@ -161,22 +161,9 @@
 // ***************************************  SECTION3 LAYOUT *************************************** 
 
 .section3{
-  grid-column: 1 / span 12;
   display: grid;
   grid-template-columns: 40% 60%;
   grid-area: 'column1 column2';
   background-color: $blackBackground;
-  align-items: center;
-  justify-content: center;
 
-}
-
-.section3__img--mailbox{
-  grid-area: column1;
-  margin: auto;
-}
-
-.img{
-  display: flex;
-  align-items: center;
 }

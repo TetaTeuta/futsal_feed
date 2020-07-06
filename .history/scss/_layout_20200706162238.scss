@@ -166,17 +166,11 @@
   grid-template-columns: 40% 60%;
   grid-area: 'column1 column2';
   background-color: $blackBackground;
-  align-items: center;
-  justify-content: center;
 
 }
 
 .section3__img--mailbox{
   grid-area: column1;
-  margin: auto;
-}
-
-.img{
-  display: flex;
+  grid-column: 2 / 4;
   align-items: center;
 }

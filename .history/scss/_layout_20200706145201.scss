@@ -137,6 +137,9 @@
   grid-template-rows: 1fr;
   grid-template-areas: 'column1 column2';
   align-items: space-between;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-between;
 }
 
 .block__paragraph--big{
@@ -149,34 +152,11 @@
   justify-content: space-between;
 }
 
-.block__img{
+.block__img {
   height: 226px;
   width: 226px;
   grid-area: column2;
   margin-left: auto; 
   margin-bottom: auto;
   margin-top: 8%;
-}
-
-// ***************************************  SECTION3 LAYOUT *************************************** 
-
-.section3{
-  grid-column: 1 / span 12;
-  display: grid;
-  grid-template-columns: 40% 60%;
-  grid-area: 'column1 column2';
-  background-color: $blackBackground;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.section3__img--mailbox{
-  grid-area: column1;
-  margin: auto;
-}
-
-.img{
-  display: flex;
-  align-items: center;
 }
