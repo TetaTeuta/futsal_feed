@@ -110,7 +110,6 @@
 
 .block__date{
   display: inline;
-  justify-content: space-between;
   color: $blockBlack;
   font-size: 14px;
   font-weight: 500;
@@ -156,7 +155,7 @@
   height: 226px;
   width: 226px;
   grid-area: column2;
-  margin-left: auto; 
+  margin-left: auto;  
   margin-bottom: auto;
   margin-top: 5%;
 }
