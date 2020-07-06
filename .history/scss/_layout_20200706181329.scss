@@ -12,6 +12,23 @@
   opacity: 0.8;
 }
 
+.block__button{
+  height: 45px;
+  width: 134px;
+  background-color: $primary;
+  margin-left: 8.4%;
+  padding: 0;
+  border: none;
+}
+
+.block__button2{
+  height: 45px;
+  width: 134px;
+  background-color: $primary;
+  padding: 0;
+  border: none;
+}
+
 .section1__paragraph{
   height: 288px;
   width: 924px;
@@ -33,23 +50,6 @@
   letter-spacing: 0;
   line-height: 18px;
   margin-left: 8.4%;
-}
-
-.block__button{
-  height: 45px;
-  width: 134px;
-  background-color: $primary;
-  margin-left: 8.4%;
-  padding: 0;
-  border: none;
-}
-
-.block__button2{
-  height: 45px;
-  width: 134px;
-  background-color: $primary;
-  padding: 0;
-  border: none;
 }
 
 // ***************************************  SECTION2 LAYOUT *************************************** 
@@ -184,9 +184,11 @@
   display: flex;
   flex-direction: column;
   align-items: space-between;
+
+  
 }
 
-.section3__title{
+&__title{
   height: 56px;
   width: 608px;
   color: $whiteFont;
@@ -195,21 +197,15 @@
   letter-spacing: 0;
   line-height: 56px;
 }
-
 .section3__paragraph{
   height: 56px;
-  width: 450px;
-  color: $whiteFont;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: 28px;
+width: 450px;
+color: $whiteFont;
+font-size: 18px;
+letter-spacing: 0;
+line-height: 28px;
 }
-
-.section3__newsletterForm{
-  display: block;
-}
-
-.form__emailBox{
+.section3__emailBox{
   box-sizing: border-box;
   height: 68px;
   width: 608px;
@@ -217,50 +213,12 @@
   background-color: $blackBackground;
   color: #FFFFFF;
   padding-left: 2%;
-  margin-top: 4%;
 }
-
-.form__label{
-  display: flex;
-  flex-direction: row;
-  height: 28px;
-  width: 412px;
-  color:rgba(255,255,255,0.7);
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: 28px;
-}
-
-.form__button{
-  margin-left: 4%;
-  height: 68px;
-  width: 292px;
-  background-color: $primary;
-  border: none;
-  color: $whiteFont;
-  font-size: 16px;
-  font-weight: 800;
-  letter-spacing: 0;
-  line-height: 36px;
-  text-align: center;
-}
-
-.form__checkBox{
-  appearance: none;
+.section3__checkBox{
   box-sizing: border-box;
-  height: 20px;
-  width: 20px;
-  border: 1px solid #DF542E;
-  border-radius: 2px;
-  margin-top: 1.6%;
-  margin-right: 1%;
-  margin-left: 0%;
+height: 20px;
+width: 20px;
+border: 1px solid #DF542E;
+border-radius: 2px;
+margin-top: 1%;
 }
-
-.test{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-}
-
-// ***************************************  SECTION4 LAYOUT *************************************** 

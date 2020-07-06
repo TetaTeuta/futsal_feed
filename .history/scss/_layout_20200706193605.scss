@@ -205,9 +205,7 @@
   line-height: 28px;
 }
 
-.section3__newsletterForm{
-  display: block;
-}
+
 
 .form__emailBox{
   box-sizing: border-box;
@@ -217,7 +215,6 @@
   background-color: $blackBackground;
   color: #FFFFFF;
   padding-left: 2%;
-  margin-top: 4%;
 }
 
 .form__label{
@@ -245,6 +242,10 @@
   text-align: center;
 }
 
+.test{
+  display: inline;
+}
+
 .form__checkBox{
   appearance: none;
   box-sizing: border-box;
@@ -252,15 +253,9 @@
   width: 20px;
   border: 1px solid #DF542E;
   border-radius: 2px;
-  margin-top: 1.6%;
-  margin-right: 1%;
-  margin-left: 0%;
+  margin-top: 1%;
 }
 
-.test{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-}
 
-// ***************************************  SECTION4 LAYOUT *************************************** 
+
+
