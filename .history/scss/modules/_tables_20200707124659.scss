@@ -45,22 +45,28 @@
 }
 
 .table2__container{
-  margin-top: 45%;
+  margin-top: 15%;
 }
 
 .table2__frame{
   width: 455px;
   height: 350px;
-  margin-top: 10%;
 }
 
 .table2__header{
   @extend .table1__header;
-  margin-bottom: 5%;
+  // height: 28px;
+  //   width: 100%;
+  //   color: $blackBackground;
+  //   font-size: 18px;
+  //   font-weight: 800;
+  //   letter-spacing: 1px;
+  //   line-height: 28px;
+
 }
 
 .table2__row{
-  // max-height: 3%;
+  max-height: 3%;
   align-items: center;
 }
 
@@ -81,12 +87,13 @@
 }
 
 .table2__rank{
+  height: 16px;
+  width: 66px;
   color: rgba(16,16,16,0.5);
   font-size: 14px;
   font-weight: 800;
-}
-.table2__row1{
-  margin-bottom: 7%;
+  letter-spacing: 0;
+  line-height: 16px;
 }
 
 .table2__rank--right{

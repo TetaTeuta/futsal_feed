@@ -4,12 +4,11 @@
   width: 450px;
   grid-column: 9 / span 3;
   margin-top: 20%;
-  background-color: $whiteBackground;
 
   .table1__header{
     height: 28px;
     width: 100%;
-    color: $blackBackground;
+    color: #000000;
     font-size: 18px;
     font-weight: 800;
     letter-spacing: 1px;
@@ -44,24 +43,16 @@
   }
 }
 
-.table2__container{
-  margin-top: 45%;
-}
 
-.table2__frame{
+.table2{
   width: 455px;
   height: 350px;
-  margin-top: 10%;
-}
+ 
 
-.table2__header{
-  @extend .table1__header;
-  margin-bottom: 5%;
 }
 
 .table2__row{
-  // max-height: 3%;
-  align-items: center;
+  margin: 1%;
 }
 
 .table2__flag{
@@ -74,22 +65,10 @@
   display: flex;
   align-items: row;
   height: 100%;
+  margin-top: 10%;
+  
 }
 
 .table2__points{
   text-align: right;
-}
-
-.table2__rank{
-  color: rgba(16,16,16,0.5);
-  font-size: 14px;
-  font-weight: 800;
-}
-.table2__row1{
-  margin-bottom: 7%;
-}
-
-.table2__rank--right{
-  @extend .table2__points;
-  @extend .table2__rank;
 }

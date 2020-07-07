@@ -229,3 +229,23 @@
   letter-spacing: 0;
   line-height: 16px;
 }
+.table2{
+  width: 450px;
+
+}
+
+.table2__row{
+  height: 66px;
+}
+
+.table2__flag{
+  height: 16px;
+  width: 28px;
+  background-color: #D8D8D8;
+}
+
+.table2__cell{
+  display: flex;
+  align-items: row;
+  justify-content: flex-end;
+}

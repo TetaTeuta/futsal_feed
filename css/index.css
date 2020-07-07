@@ -288,6 +288,16 @@ body {
   padding-bottom: 6%;
 }
 
+.starts {
+  height: 16px;
+  width: 160px;
+  color: #DF542E;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -390,12 +400,13 @@ header .nav__rectangle {
   -ms-grid-column: 9;
   -ms-grid-column-span: 3;
   grid-column: 9 / span 3;
-  margin-top: 23%;
+  margin-top: 20%;
+  background-color: #F4F4F4;
 }
 
-.table1 .table1__header {
+.table1 .table1__header, .table1 .table2__header {
   height: 28px;
-  width: 360px;
+  width: 100%;
   color: #000000;
   font-size: 18px;
   font-weight: 800;
@@ -417,10 +428,11 @@ header .nav__rectangle {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: start;
 }
 
 .table1 .table__row .table1__number {
-  height: 16px;
+  height: 12px;
   width: 24px;
   color: rgba(16, 16, 16, 0.5);
   font-size: 14px;
@@ -437,6 +449,56 @@ header .nav__rectangle {
   font-weight: 500;
   letter-spacing: 0;
   line-height: 32px;
+}
+
+.table2__container {
+  margin-top: 45%;
+}
+
+.table2__frame {
+  width: 455px;
+  height: 350px;
+  margin-top: 10%;
+}
+
+.table2__header {
+  margin-bottom: 5%;
+}
+
+.table2__row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.table2__flag {
+  height: 16px;
+  width: 28px;
+  background-color: #D8D8D8;
+}
+
+.table2__cell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: row;
+      -ms-flex-align: row;
+          align-items: row;
+  height: 100%;
+}
+
+.table2__points, .table2__rank--right {
+  text-align: right;
+}
+
+.table2__rank, .table2__rank--right {
+  color: rgba(16, 16, 16, 0.5);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.table2__row1 {
+  margin-bottom: 7%;
 }
 
 .form__emailBox {

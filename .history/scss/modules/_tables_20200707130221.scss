@@ -51,16 +51,14 @@
 .table2__frame{
   width: 455px;
   height: 350px;
-  margin-top: 10%;
 }
 
 .table2__header{
   @extend .table1__header;
-  margin-bottom: 5%;
 }
 
 .table2__row{
-  // max-height: 3%;
+  max-height: 3%;
   align-items: center;
 }
 
@@ -81,12 +79,15 @@
 }
 
 .table2__rank{
+  height: 16px;
+  width: 66px;
   color: rgba(16,16,16,0.5);
   font-size: 14px;
   font-weight: 800;
-}
-.table2__row1{
-  margin-bottom: 7%;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: 7%;
+  margin-bottom: 5%;
 }
 
 .table2__rank--right{
