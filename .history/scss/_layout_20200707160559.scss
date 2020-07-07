@@ -235,9 +235,6 @@
   grid-column: 1/ span 12;
 }
 
-// ***************************************  SECTION6 LAYOUT *************************************** 
-
-
 .section6{
   grid-column: 2/ span 6;
   display: flex;
@@ -245,15 +242,4 @@
   justify-content: space-between;
   padding-top: 7%;
   padding-bottom: 6%;
-}
-
-.see__more{
-  height: 5%;
-  width: 20.21%;
-  color: #DF542E;
-  font-family: Inter;
-  font-size: 21px;
-  font-weight: 600;
-  letter-spacing: 0;
-  line-height: 32px;
 }

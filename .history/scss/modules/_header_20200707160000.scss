@@ -17,13 +17,6 @@ header {
     height: 100%;  
     }
 
-    .nav__logo_2 {
-      height: 37px;
-      width: 207px;
-      margin-top: 1%;
-      grid-column: 2;
-    }
-
   .nav__menu {
     @extend nav;
       height: 25px;
@@ -38,7 +31,12 @@ header {
       justify-content: space-around;
     }
   
-
+  .nav__logo_2 {
+    height: 37px;
+    width: 207px;
+    margin-top: 1%;
+    grid-column: 2;
+  }
   
   .nav_button--send {
     grid-column: 11;
@@ -50,8 +48,8 @@ header {
   }
   
   .nav__search {
-    height: 32px;
-    width: 176px;
+    height: 0.27%;
+  width: 1.04%;
     margin-left: 10%;
   }
 
