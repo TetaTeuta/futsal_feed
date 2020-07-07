@@ -8,11 +8,11 @@ body {
   display: grid;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
-  -ms-grid-rows: 56px 930px 930px 560px 1860px 676px 1860px 640px;
-      grid-template-rows: 56px 930px 930px 560px 1860px 676px 1860px 640px;
+  -ms-grid-rows: 76px 920px 920px 560px 1840px 676px 1840px 640px;
+      grid-template-rows: 76px 920px 920px 560px 1840px 676px 1840px 640px;
   grid-gap: 24px;
   font-family: "Inter", sans-serif;
-  background-color: #F4F4F4;
+  background-color: #FFFFFF;
   width: 1920px;
   height: 7371px;
 }
@@ -37,7 +37,7 @@ body {
 .section1__paragraph {
   height: 288px;
   width: 924px;
-  color: #FFFFFF;
+  color: #F4F4F4;
   font-size: 64px;
   font-weight: bold;
   letter-spacing: 0;
@@ -251,7 +251,7 @@ body {
 .section3__title {
   height: 56px;
   width: 608px;
-  color: #FFFFFF;
+  color: #F4F4F4;
   font-size: 32px;
   font-weight: 800;
   letter-spacing: 0;
@@ -261,7 +261,7 @@ body {
 .section3__paragraph {
   height: 56px;
   width: 450px;
-  color: #FFFFFF;
+  color: #F4F4F4;
   font-size: 18px;
   letter-spacing: 0;
   line-height: 28px;
@@ -298,6 +298,12 @@ body {
   line-height: 16px;
 }
 
+.section5__social {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1/ span 12;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -308,11 +314,11 @@ body {
   display: grid;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
-  -ms-grid-rows: 56px 930px 930px 560px 1860px 676px 1860px 640px;
-      grid-template-rows: 56px 930px 930px 560px 1860px 676px 1860px 640px;
+  -ms-grid-rows: 76px 920px 920px 560px 1840px 676px 1840px 640px;
+      grid-template-rows: 76px 920px 920px 560px 1840px 676px 1840px 640px;
   grid-gap: 24px;
   font-family: "Inter", sans-serif;
-  background-color: #F4F4F4;
+  background-color: #FFFFFF;
   width: 1920px;
   height: 7371px;
 }
@@ -349,6 +355,7 @@ header nav, header .nav__menu {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+  height: 100%;
 }
 
 header .nav__menu {
@@ -401,7 +408,7 @@ header .nav__rectangle {
   -ms-grid-column-span: 3;
   grid-column: 9 / span 3;
   margin-top: 20%;
-  background-color: #F4F4F4;
+  background-color: #FFFFFF;
 }
 
 .table1 .table1__header, .table1 .table2__header {
@@ -497,10 +504,6 @@ header .nav__rectangle {
   font-weight: 800;
 }
 
-.table2__row1 {
-  margin-bottom: 7%;
-}
-
 .form__emailBox {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -535,7 +538,7 @@ header .nav__rectangle {
   width: 292px;
   background-color: #DF542E;
   border: none;
-  color: #FFFFFF;
+  color: #F4F4F4;
   font-size: 16px;
   font-weight: 800;
   letter-spacing: 0;
@@ -581,11 +584,11 @@ body {
   display: grid;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
-  -ms-grid-rows: 56px 930px 930px 560px 1860px 676px 1860px 640px;
-      grid-template-rows: 56px 930px 930px 560px 1860px 676px 1860px 640px;
+  -ms-grid-rows: 76px 920px 920px 560px 1840px 676px 1840px 640px;
+      grid-template-rows: 76px 920px 920px 560px 1840px 676px 1840px 640px;
   grid-gap: 24px;
   font-family: "Inter", sans-serif;
-  background-color: #F4F4F4;
+  background-color: #FFFFFF;
   width: 1920px;
   height: 7371px;
 }
@@ -622,6 +625,7 @@ header nav, header .nav__menu {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+  height: 100%;
 }
 
 header .nav__menu {
