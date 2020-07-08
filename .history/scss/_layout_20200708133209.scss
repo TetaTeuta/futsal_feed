@@ -268,7 +268,7 @@ footer{
 .footer__container{
   display: grid;
   grid-template-columns: 3fr 2fr 2fr 5fr;
-  grid-template-rows: 3fr 67.5px 67.5px 67.5px;
+  grid-template-rows: 3fr 67.5px ;
   align-items: center;
   grid-column-gap: 0.5%;
   grid-row-gap: 10px;
@@ -348,19 +348,12 @@ footer{
 }
 
 .footer__leagal{
-  grid-column: 1 / span 4;
+  grid-column: 2 / span 3;
   display: inline-flex;
-  flex-direction: row;
-  justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
   color: rgba(255,255,255,0.7);
   font-size: 14px;
   letter-spacing: 0;
   line-height: 24px;
-}
-
-.footer__redtengle--small{
-  box-sizing: border-box;
-  height: 68px;
-  width: 1px;
-  border: 1px solid rgba(255,255,255,0.2);
 }
