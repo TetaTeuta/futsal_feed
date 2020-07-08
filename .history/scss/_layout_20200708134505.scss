@@ -272,7 +272,8 @@ footer{
   align-items: center;
   grid-column-gap: 0.5%;
   grid-row-gap: 10px;
-  height: 100%;
+  height: 288px;
+
 }
 
 .footer__menu{
@@ -310,6 +311,7 @@ footer{
 
 .footer__nav{
   grid-column: 1 / span 4;
+  width: 100%;
   display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
@@ -329,7 +331,7 @@ footer{
   font-weight: 800;
   letter-spacing: 0.35px;
   line-height: 24px;
-  margin-left: 1.5%;
+  margin-left: 20%;
 }
 
 .footer__rectengle--long{
@@ -344,7 +346,6 @@ footer{
   width: 292px;
   background-color: #D8A42F;
   border: none;
-  margin-right: 5%;
 }
 
 .footer__leagal{
