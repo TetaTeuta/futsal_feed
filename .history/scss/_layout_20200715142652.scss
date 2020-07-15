@@ -41,10 +41,6 @@
   padding: 0;
   border: none;
   color: $whiteBackground;
-  font-size: 16px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  line-height: 18px;
 }
 
 .block__button2 {
@@ -53,11 +49,6 @@
   background-color: $primary;
   padding: 0;
   border: none;
-  color: $whiteBackground;
-  font-size: 16px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  line-height: 18px;
 }
 
 // ***************************************  SECTION2 LAYOUT ***************************************
@@ -67,7 +58,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 9%;
+  padding-top: 7%;
   padding-bottom: 6%;
 }
 
@@ -79,7 +70,6 @@
   font-weight: 800;
   letter-spacing: 1px;
   line-height: 28px;
-  margin-bottom: 1%;
 }
 
 // ***************************************  BLOCK NO IMG  ***************************************

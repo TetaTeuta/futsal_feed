@@ -35,8 +35,7 @@ header {
     letter-spacing: 0;
     line-height: 24px;
     margin-top: 2%;
-    margin-left: 5%;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .nav_button--send {
@@ -52,19 +51,14 @@ header {
   .nav__search {
     height: 32px;
     width: 176px;
-    margin-left: 5%;
-  }
-
-  .nav__socialm {
-    width: 15%;
-    margin-left: 1%;
+    margin-left: 10%;
   }
 
   #facebook,
   #instagram,
   #youtube,
   #twitter {
-    margin-left: 7%;
+    margin: 3%;
   }
 
   .nav__rectangle {
