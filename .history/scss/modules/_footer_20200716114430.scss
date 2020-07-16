@@ -116,7 +116,7 @@ footer {
   grid-column: 1 /5;
   display: inline-flex;
   flex-direction: row;
-  width: calc(100% - 22.5em);
+  width: calc(100% - 23em);
   justify-content: space-between;
   margin-left: 8.5%;
   color: $whiteBackground;
@@ -124,3 +124,11 @@ footer {
   letter-spacing: 0;
   line-height: 24px;
 }
+
+// .footer__copy {
+//   justify-self: flex-end;
+// }
+
+// .footer__privacy {
+//   justify-self: flex-start;
+// }

@@ -104,23 +104,21 @@ footer {
     margin: 3%;
   }
 
+  .footer__leagal {
+    // grid-column: 1 /5;
+    // display: inline-flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+
   .footer__rectengle--small {
     box-sizing: border-box;
     height: 68px;
     width: 1px;
     border: 1px solid rgba(255, 255, 255, 0.2);
   }
-}
-
-.footer__leagal {
-  grid-column: 1 /5;
-  display: inline-flex;
-  flex-direction: row;
-  width: calc(100% - 22.5em);
-  justify-content: space-between;
-  margin-left: 8.5%;
-  color: $whiteBackground;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 24px;
 }

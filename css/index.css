@@ -515,12 +515,12 @@ header .nav__rectangle {
 }
 
 .table2__container {
-  margin-top: 45%;
+  margin-top: 50%;
 }
 
 .table2__frame {
   width: 455px;
-  height: 350px;
+  height: 370px;
   margin-top: 10%;
 }
 
@@ -558,6 +558,7 @@ header .nav__rectangle {
   color: rgba(16, 16, 16, 0.5);
   font-size: 14px;
   font-weight: 800;
+  margin-bottom: 10%;
 }
 
 .form__emailBox {
@@ -758,7 +759,15 @@ footer {
   margin: 3%;
 }
 
-.footer__nav .footer__leagal {
+.footer__nav .footer__rectengle--small {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 68px;
+  width: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer__leagal {
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-column: 1 /5;
@@ -769,21 +778,15 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  width: calc(100% - 22.5em);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  color: rgba(255, 255, 255, 0.7);
+  margin-left: 8.5%;
+  color: #FFFFFF;
   font-size: 14px;
   letter-spacing: 0;
   line-height: 24px;
-}
-
-.footer__nav .footer__rectengle--small {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  height: 68px;
-  width: 1px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 * {

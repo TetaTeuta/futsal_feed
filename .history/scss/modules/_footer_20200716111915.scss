@@ -92,6 +92,17 @@ footer {
     line-height: 36px;
   }
 
+  .footer__leagal {
+    grid-column: 1 /5;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+
   .footer__social {
     width: 15%;
     text-align: right;
@@ -110,17 +121,4 @@ footer {
     width: 1px;
     border: 1px solid rgba(255, 255, 255, 0.2);
   }
-}
-
-.footer__leagal {
-  grid-column: 1 /5;
-  display: inline-flex;
-  flex-direction: row;
-  width: calc(100% - 22.5em);
-  justify-content: space-between;
-  margin-left: 8.5%;
-  color: $whiteBackground;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 24px;
 }
