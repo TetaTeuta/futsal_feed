@@ -1,8 +1,8 @@
 @import "vars";
 
-// ***************************************  SECTION1  ***************************************
+// ***************************************  HERO SECTION  ***************************************
 
-.section1 {
+.hero {
   grid-column: 1 / span 12;
   display: flex;
   flex-flow: column wrap;
@@ -10,7 +10,7 @@
   opacity: 0.8;
 }
 
-.section1__paragraph {
+.hero__paragraph {
   height: 288px;
   width: 924px;
   color: $whiteFont;
@@ -22,7 +22,7 @@
   grid-column: 2 / span 11;
 }
 
-.section1__date {
+.hero__date {
   height: 18px;
   width: 85px;
   color: rgba(255, 255, 255, 0.7);

@@ -24,7 +24,7 @@ header {
   }
 
   .nav__menu {
-    @extend nav;
+    @extend .nav__container;
     height: 25px;
     width: 529px;
     list-style: none;
