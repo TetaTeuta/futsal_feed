@@ -1,5 +1,10 @@
 @import "vars";
 
+@mixin center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 // ***************************************  HERO SECTION  ***************************************
 
 .hero {
@@ -60,15 +65,16 @@
   line-height: 18px;
 }
 
-// ***************************************  SECTION2 LAYOUT ***************************************
+// ***************************************  NEWS SECTION LAYOUT ***************************************
 
-.section2 {
+.news {
   grid-column: 2 / span 6;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-top: 9%;
   padding-bottom: 6%;
+  @include center;
 }
 
 .latest {
@@ -166,9 +172,10 @@
   margin-top: 8%;
 }
 
-// ***************************************  SECTION3 LAYOUT ***************************************
+// ***************************************  NEWSLETTER SECTION LAYOUT ***************************************
 
-.section3 {
+.newsletter {
+  // @include center;
   grid-column: 1 / span 12;
   display: grid;
   grid-template-columns: 42% 58%;
@@ -178,23 +185,23 @@
   justify-content: space-between;
 }
 
-.section3__column1 {
+.newsletter__column1 {
   display: flex;
   align-items: center;
 
-  .section3__img--mailbox {
+  .newsletter__img--mailbox {
     grid-area: column1;
     margin: auto;
   }
 }
 
-.section3__column2 {
+.newsletter__column2 {
   display: flex;
   flex-direction: column;
   align-items: space-between;
 }
 
-.section3__title {
+.newsletter__title {
   height: 56px;
   width: 608px;
   color: $whiteFont;
@@ -204,7 +211,7 @@
   line-height: 56px;
 }
 
-.section3__paragraph {
+.newsletter__paragraph {
   height: 56px;
   width: 450px;
   color: $whiteFont;
@@ -213,19 +220,20 @@
   line-height: 28px;
 }
 
-.section3__newsletterForm {
+.newsletter__newsletterForm {
   display: block;
 }
 
-// ***************************************  SECTION4 LAYOUT ***************************************
+// ***************************************  UPCOMING EVENTS SECTION LAYOUT ***************************************
 
-.section4 {
+.upcoming {
   grid-column: 2 / span 6;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding-top: 7%;
   padding-bottom: 6%;
+  @include center;
 }
 
 .starts {
@@ -238,21 +246,22 @@
   line-height: 16px;
 }
 
-// ***************************************  SECTION5 LAYOUT ***************************************
+// ***************************************  SOCIAL MEDIA LAYOUT ***************************************
 
-.section5__social {
+.social {
   grid-column: 1 / span 12;
 }
 
 // ***************************************  SECTION6 LAYOUT ***************************************
 
-.section6 {
+.resistance-training-section {
   grid-column: 2 / span 6;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-top: 7%;
   padding-bottom: 6%;
+  @include center;
 }
 
 .see__more {
