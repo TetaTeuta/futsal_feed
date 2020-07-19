@@ -17,6 +17,12 @@ body {
   height: 7371px;
 }
 
+body [data-aos-duration="4000"] [data-aos],
+body [data-aos][data-aos][data-aos-duration="4000"] {
+  -webkit-transition-duration: 4000ms;
+          transition-duration: 4000ms;
+}
+
 .section1 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 12;
@@ -361,6 +367,12 @@ body {
   background-color: #FFFFFF;
   width: 1920px;
   height: 7371px;
+}
+
+body [data-aos-duration="4000"] [data-aos],
+body [data-aos][data-aos][data-aos-duration="4000"] {
+  -webkit-transition-duration: 4000ms;
+          transition-duration: 4000ms;
 }
 
 header {
@@ -806,6 +818,12 @@ body {
   background-color: #FFFFFF;
   width: 1920px;
   height: 7371px;
+}
+
+body [data-aos-duration="4000"] [data-aos],
+body [data-aos][data-aos][data-aos-duration="4000"] {
+  -webkit-transition-duration: 4000ms;
+          transition-duration: 4000ms;
 }
 
 header {
