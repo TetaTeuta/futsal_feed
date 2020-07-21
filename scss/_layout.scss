@@ -28,11 +28,11 @@
 // ***************************************  HERO SECTION  ***************************************
 
 .hero {
-  grid-column: 1 / span 12;
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
   justify-content: center;
   opacity: 0.8;
+  height: 12.88%;
 }
 
 .hero__paragraph {

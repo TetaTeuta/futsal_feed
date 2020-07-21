@@ -1,4 +1,4 @@
-@import "../vars", "../base";
+@import "../vars", "../base", "../base";
 
 @mixin font-props {
   font-family: $font;
@@ -10,66 +10,57 @@
 
 .nav__container {
   display: flex;
-  // flex-direction: row;
+  flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  margin: 2% auto;
+  width: 84.04%;
 
-  margin: 1% auto;
-  width: 82.04%;
-}
+  .nav__logo_2 {
+    height: 0.5%;
+    width: 10.78%;
+  }
 
-.nav__logo_2 {
-  height: 5rem;
-  width: 12rem;
-  // margin-top: 1%;
-}
+  .nav__menu {
+    @include font-props;
+    display: flex;
+    height: 0.34%;
+    width: 37.55%;
+    list-style: none;
+    color: $blackFont;
+    justify-content: space-between;
+    margin-right: 3%;
+  }
 
-.nav__menu {
-  @extend .nav__container;
-  @include font-props;
-  height: 25px;
-  width: 30%;
-  list-style: none;
-  color: $blackFont;
-  justify-content: space-between;
-}
+  .nav__button {
+    height: 56px;
+    width: 153px;
+    border: 1px solid #111111;
+    font-weight: 700;
+    background-color: $whiteBackground;
+    color: $blackFont;
+  }
 
-.nav__button {
-  height: 56px;
-  width: 153px;
-  border: 1px solid #111111;
-  font-weight: 700;
-  // margin-left: 1%;
-  background-color: $whiteBackground;
-  text-decoration: none;
-}
+  // .nav__button:hover {
+  //   transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  //   text-decoration: none;
+  // }
 
-// .nav__button:hover {
-//   transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
-//   text-decoration: none;
-// }
+  .nav__search {
+    height: 0.27%;
+    width: 1.04%;
+    margin-left: 7%;
+  }
 
-.nav__search {
-  height: 32px;
-  width: 176px;
-  // margin-left: 5%;
-}
+  .nav__socialm {
+    height: 0.43%;
+    width: 9.17%;
+    justify-content: center;
+  }
 
-.nav__socialm {
-  width: 15%;
-  justify-content: center;
-  // margin-left: 1%;
-}
-
-// #facebook,
-// #instagram,
-// #youtube,
-// #twitter {
-//   // margin-left: 7%;
-// }
-
-.nav__rectangle {
-  height: 56px;
-  width: 1px;
-  border: 1px solid #111111;
+  .nav__rectangle {
+    height: 56px;
+    width: 1px;
+    border: 1px solid #111111;
+  }
 }
