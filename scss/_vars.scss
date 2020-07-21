@@ -1,8 +1,41 @@
-$whiteBackground : #FFFFFF;
+$whiteBackground: #ffffff;
 $blackBackground: #000000;
-$whiteFont : #F4F4F4;
-$blackFont : #0C0C0C;
-$font : 'Inter', sans-serif;
-$primary: #DF542E;
+$whiteFont: #f4f4f4;
+$blackFont: #0c0c0c;
+$font: "Inter", sans-serif;
+$primary: #df542e;
 $black: #101010;
-$blockBlack: rgba(0,0,0,0.5);
+$blockBlack: rgba(0, 0, 0, 0.5);
+
+@mixin font-props {
+  font-family: $font;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+@mixin center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin block__style {
+  color: #111111;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+@mixin block__button {
+  height: 45px;
+  width: 134px;
+  background-color: $primary;
+  padding: 0;
+  border: none;
+  color: $whiteBackground;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 18px;
+}
