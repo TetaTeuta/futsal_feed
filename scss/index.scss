@@ -1,5 +1,1 @@
-@import 'base';
-@import 'layout';
-@import 'modules';
-@import './modules/header';
-@import 'vars';
+@import "base", "layout", "modules", "./modules/header", "vars";
