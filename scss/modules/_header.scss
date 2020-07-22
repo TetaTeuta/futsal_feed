@@ -7,6 +7,7 @@
   justify-content: space-around;
   margin: 2% auto;
   width: 84.04%;
+  font-weight: 800;
 
   .nav__logo_2 {
     height: 0.5%;
@@ -26,16 +27,12 @@
 
   .nav__button {
     height: 56px;
-    width: 153px;
+    width: 10%;
     border: 1px solid #111111;
     font-weight: 700;
     background-color: $whiteBackground;
     color: $blackFont;
     cursor: default;
-  }
-
-  .nav__button:hover {
-    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
   }
 
   .nav__search {
@@ -51,8 +48,6 @@
   }
 
   .nav__rectangle {
-    height: 56px;
-    width: 1px;
-    border: 1px solid #111111;
+    border: 0.1% solid #111111;
   }
 }

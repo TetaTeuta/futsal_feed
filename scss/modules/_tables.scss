@@ -1,18 +1,19 @@
+@import "../base";
+
 .table1 {
-  height: 620px;
-  width: 450px;
-  grid-column: 9 / span 3;
-  margin-top: 22.5%;
+  @include center;
+  @include font-props;
+  font-weight: 800;
+  height: 17%;
+  width: 47%;
+  margin-top: 3.6%;
   background-color: $whiteBackground;
 
   .table1__header {
-    height: 28px;
+    height: 10%;
     width: 100%;
     color: $blackBackground;
-    font-size: 18px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    line-height: 28px;
+    margin-bottom: 9.5%;
   }
 
   .table__row {
@@ -23,22 +24,18 @@
     text-align: start;
 
     .table1__number {
-      height: 12px;
-      width: 24px;
+      height: 7%;
+      width: 15%;
       color: rgba(16, 16, 16, 0.5);
-      font-size: 14px;
-      font-weight: 800;
-      letter-spacing: 0;
-      line-height: 16px;
+      font-size: 0.85rem;
     }
+
     .table__text {
-      height: 64px;
-      width: 378px;
+      height: 70%;
+      width: 90%;
       color: $black;
-      font-size: 21px;
+      font-size: 1.4rem;
       font-weight: 500;
-      letter-spacing: 0;
-      line-height: 32px;
     }
   }
 }
