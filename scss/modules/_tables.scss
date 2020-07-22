@@ -6,7 +6,7 @@
   font-weight: 800;
   height: 17%;
   width: 47%;
-  margin-top: 3.6%;
+  // margin-top: 3.6%;
   background-color: $whiteBackground;
 
   .table1__header {
@@ -45,9 +45,9 @@
 }
 
 .table2__frame {
-  width: 455px;
-  height: 370px;
+  width: 100%;
   margin-top: 10%;
+  font-weight: 500;
 }
 
 .table2__header {
@@ -56,7 +56,6 @@
 }
 
 .table2__row {
-  // max-height: 3%;
   align-items: center;
 }
 
@@ -78,8 +77,7 @@
 
 .table2__rank {
   color: rgba(16, 16, 16, 0.5);
-  font-size: 14px;
-  font-weight: 800;
+  font-size: 1rem;
   margin-bottom: 10%;
 }
 

@@ -10,8 +10,8 @@
   font-weight: 800;
 
   .nav__logo_2 {
-    height: 0.5%;
-    width: 10.78%;
+    height: 6rem;
+    width: 10rem;
   }
 
   .nav__menu {
@@ -22,7 +22,6 @@
     list-style: none;
     color: $blackFont;
     justify-content: space-between;
-    margin-right: 3%;
   }
 
   .nav__button {
@@ -32,12 +31,11 @@
     font-weight: 700;
     background-color: $whiteBackground;
     color: $blackFont;
-    cursor: default;
   }
 
   .nav__search {
-    height: 0.27%;
-    width: 1.04%;
+    height: 1rem;
+    width: 1rem;
     margin-left: 7%;
   }
 
