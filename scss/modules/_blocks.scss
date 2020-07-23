@@ -12,14 +12,13 @@
 
 .block__rectangle,
 .block__rectangle--short {
-  height: 1px;
   width: 100%;
-  border: 1px solid $blackBackground;
+  border: 0.01rem solid $blackBackground;
 }
 
 .block__rectangle--light {
   @extend .block__rectangle;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 0.01rem solid rgba(0, 0, 0, 0.2);
 }
 
 .block__paragraph {

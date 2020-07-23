@@ -20,20 +20,25 @@ $blockBlack: rgba(0, 0, 0, 0.5);
 
 @mixin block__style {
   color: #111111;
-  font-size: 28px;
+  font-size: 2rem;
   font-weight: 600;
   letter-spacing: 0;
 }
 
 @mixin block__button {
-  height: 45px;
-  width: 134px;
+  cursor: pointer;
+  height: 3rem;
+  width: 10rem;
   background-color: $primary;
-  padding: 0;
   border: none;
   color: $whiteBackground;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 800;
-  letter-spacing: 1px;
-  line-height: 18px;
+  letter-spacing: 1;
+}
+
+@mixin hover {
+  transition: 0.1s opacity, 0.5s;
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
+  opacity: 0.7;
 }

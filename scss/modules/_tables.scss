@@ -4,12 +4,12 @@
   @include center;
   @include font-props;
   font-weight: 800;
-  height: 20%;
+  height: 3rem;
   width: 50%;
   background-color: $whiteBackground;
 
   .table1__header {
-    height: 30%;
+    height: 3.5rem;
     width: 100%;
     color: $blackBackground;
   }
@@ -58,14 +58,15 @@
 }
 
 .table2__flag {
-  height: 16px;
-  width: 28px;
+  height: 1rem;
+  width: 1.7rem;
   background-color: #d8d8d8;
 }
 
 .table2__cell {
   display: flex;
   align-items: row;
+  align-items: center;
   height: 100%;
 }
 

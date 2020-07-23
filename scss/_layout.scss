@@ -1,4 +1,4 @@
-@import "vars", "base";
+@import "temps", "base";
 
 // ***************************************  HERO SECTION  ***************************************
 
@@ -29,10 +29,18 @@
 .block__button {
   @include block__button;
   margin-left: 8.4%;
+
+  &:hover {
+    @include hover;
+  }
 }
 
 .block__button2 {
   @include block__button;
+
+  &:hover {
+    @include hover;
+  }
 }
 
 // ***************************************  NEWS SECTION LAYOUT ***************************************
@@ -86,7 +94,7 @@
 }
 
 .newsletter__title {
-  height: 10%;
+  height: 6%;
   color: $whiteFont;
   font-size: 2rem;
   font-weight: 800;
@@ -98,7 +106,7 @@
   color: $whiteFont;
   font-size: 1rem;
   letter-spacing: 0;
-  line-height: 28px;
+  line-height: 1.5rem;
   margin-bottom: 8%;
 }
 
@@ -107,9 +115,6 @@
 .upcoming {
   @extend %grid-2col;
   @include center;
-  padding-top: 7%;
-  padding-bottom: 6%;
-  // height: 23.91%;
 }
 
 .starts {

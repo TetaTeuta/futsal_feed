@@ -90,6 +90,10 @@ footer {
     font-weight: 800;
     letter-spacing: 0;
     line-height: 36px;
+
+    &:hover {
+      @include hover;
+    }
   }
 
   .footer__social {
