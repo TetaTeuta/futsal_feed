@@ -8,9 +8,8 @@ $black: #101010;
 $blockBlack: rgba(0, 0, 0, 0.5);
 
 @mixin font-props {
-  font-family: $font;
   font-size: 1.25rem;
-  letter-spacing: 0;
+  letter-spacing: 1;
   line-height: 1.5;
 }
 

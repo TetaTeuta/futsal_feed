@@ -20,8 +20,6 @@
 }
 
 .hero__date {
-  height: 18px;
-  width: 85px;
   color: rgba(255, 255, 255, 0.7);
   font-size: 1rem;
   font-weight: 600;
@@ -41,10 +39,9 @@
 
 .news {
   @extend %grid-2col;
+  @include center;
   padding-top: 9%;
   padding-bottom: 6%;
-  @include center;
-  // height: 13.83%;
 }
 
 .block__container {
@@ -52,11 +49,9 @@
 }
 
 .latest {
+  @include font-props;
   color: $black;
-  font-size: 18px;
   font-weight: 800;
-  letter-spacing: 1px;
-  line-height: 28px;
 }
 
 // ***************************************  NEWSLETTER SECTION LAYOUT ***************************************
@@ -81,32 +76,30 @@
 .newsletter__column2 {
   display: flex;
   flex-direction: column;
-  align-items: space-between;
+  justify-content: center;
+  height: 100%;
 }
 
 .newsletter__column3 {
   @extend .newsletter__column2;
-  align-items: flex-start;
-  // padding-top: 30%;
+  align-items: center;
 }
 
 .newsletter__title {
-  height: 56px;
-  width: 609px;
+  height: 10%;
   color: $whiteFont;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 800;
   letter-spacing: 0;
-  line-height: 56px;
 }
 
 .newsletter__paragraph {
-  height: 56px;
-  width: 450px;
+  width: 80%;
   color: $whiteFont;
-  font-size: 18px;
+  font-size: 1rem;
   letter-spacing: 0;
   line-height: 28px;
+  margin-bottom: 8%;
 }
 
 // ***************************************  UPCOMING EVENTS SECTION LAYOUT ***************************************
@@ -120,8 +113,6 @@
 }
 
 .starts {
-  height: 16px;
-  width: 160px;
   color: $primary;
   font-size: 1rem;
   font-weight: 800;
@@ -131,7 +122,6 @@
 
 .social {
   @extend %grid-12col;
-  grid-column: 1 / span 12;
   width: 100%;
   height: 9.17%;
 }
@@ -149,9 +139,7 @@
 
 .see__more {
   color: $primary;
-  font-family: Inter;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 600;
-  letter-spacing: 0;
-  line-height: 32px;
+  margin-top: 5%;
 }
