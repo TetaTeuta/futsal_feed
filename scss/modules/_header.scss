@@ -58,18 +58,3 @@
     border: 0.1% solid #111111;
   }
 }
-
-.nav__burger {
-  width: 5rem;
-  height: 5rem;
-}
-
-.nav__burger--active {
-  display: none;
-  position: fixed;
-  cursor: pointer;
-  width: 40%;
-  height: 100vh;
-  background-color: gray;
-  border-radius: 10% 0 0 10%;
-}
