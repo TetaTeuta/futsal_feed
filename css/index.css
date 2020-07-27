@@ -4,6 +4,11 @@
   text-decoration: none;
 }
 
+a:visited {
+  text-decoration: none;
+  color: #0c0c0c;
+}
+
 body {
   font-family: "Inter", sans-serif;
   background-color: #ffffff;
@@ -37,6 +42,11 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #0c0c0c;
 }
 
 body {
@@ -108,8 +118,13 @@ body {
   color: #ffffff;
   font-size: 1rem;
   font-weight: 800;
-  letter-spacing: 1;
+  letter-spacing: 2;
   margin-left: 8.4%;
+}
+
+.block__button a:visited {
+  text-decoration: none;
+  color: #0c0c0c;
 }
 
 .block__button:hover {
@@ -129,7 +144,7 @@ body {
   color: #ffffff;
   font-size: 1rem;
   font-weight: 800;
-  letter-spacing: 1;
+  letter-spacing: 2;
 }
 
 .block__button2:hover {
@@ -263,6 +278,11 @@ body {
   text-decoration: none;
 }
 
+a:visited {
+  text-decoration: none;
+  color: #0c0c0c;
+}
+
 body {
   font-family: "Inter", sans-serif;
   background-color: #ffffff;
@@ -332,7 +352,7 @@ body {
   margin: 1%;
 }
 
-.nav__container .nav__menu > li {
+.nav__container .nav__menu > .nav__link {
   margin: 2%;
 }
 
@@ -378,15 +398,23 @@ body {
 
 .nav__burger--active {
   display: none;
+  position: fixed;
+  cursor: pointer;
   width: 40%;
   height: 100vh;
   background-color: gray;
+  border-radius: 10% 0 0 10%;
 }
 
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #0c0c0c;
 }
 
 body {
@@ -545,12 +573,15 @@ body {
   width: 14rem;
   background-color: #df542e;
   border: none;
-  color: #f4f4f4;
   font-size: 1rem;
   font-weight: 800;
   text-align: center;
   margin-top: 30%;
   margin-right: 20%;
+}
+
+.form__button:visited {
+  color: #f4f4f4 !important;
 }
 
 .form__button:hover {
@@ -758,6 +789,11 @@ footer {
   text-decoration: none;
 }
 
+a:visited {
+  text-decoration: none;
+  color: #0c0c0c;
+}
+
 body {
   font-family: "Inter", sans-serif;
   background-color: #ffffff;
@@ -827,7 +863,7 @@ body {
   margin: 1%;
 }
 
-.nav__container .nav__menu > li {
+.nav__container .nav__menu > .nav__link {
   margin: 2%;
 }
 
@@ -873,15 +909,23 @@ body {
 
 .nav__burger--active {
   display: none;
+  position: fixed;
+  cursor: pointer;
   width: 40%;
   height: 100vh;
   background-color: gray;
+  border-radius: 10% 0 0 10%;
 }
 
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #0c0c0c;
 }
 
 body {

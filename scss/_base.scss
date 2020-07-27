@@ -5,6 +5,11 @@
   text-decoration: none;
 }
 
+a:visited {
+  text-decoration: none;
+  color: $blackFont;
+}
+
 body {
   font-family: $font;
   background-color: $whiteBackground;
