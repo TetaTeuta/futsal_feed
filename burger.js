@@ -7,3 +7,7 @@ $(function() {
     $(".nav__container").slideToggle();
   });
 });
+
+$(document).ready(function() {
+  $(".nav__container").hide();
+});
