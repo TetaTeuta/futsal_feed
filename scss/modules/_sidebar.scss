@@ -1,8 +1,48 @@
 @import "../temps", "../base";
 
-.nav__burger {
-  // position: fixed;
+.nav__burger--wrapper {
   align-self: flex-end;
-  margin: 5%;
-  opacity: 200%;
+  margin: 3%;
+  width: 10rem;
+  height: 10rem;
+  cursor: pointer;
+}
+
+.nav__burger {
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+  @include center;
+}
+
+.line {
+  position: absolute;
+  height: 0.2rem;
+  width: 100%;
+  background: $primary;
+  border-radius: 30%;
+  transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
+}
+
+.line01 {
+  top: 19%;
+}
+
+.line02 {
+  top: 49%;
+}
+
+.line03 {
+  top: 79%;
+}
+
+.menu.close .line01 {
+  transform: rotate(45deg);
+  top: 49%;
+}
+
+.menu.close .line02,
+.menu.close .line03 {
+  transform: rotate(-45deg);
+  top: 49%;
 }
