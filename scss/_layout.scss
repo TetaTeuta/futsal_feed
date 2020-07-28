@@ -7,7 +7,6 @@
   flex-direction: column;
   justify-content: center;
   opacity: 0.8;
-  height: 12.88%;
 }
 
 .hero__paragraph {
@@ -69,12 +68,12 @@
   background-color: $blackBackground;
   align-items: center;
   justify-content: space-between;
-  height: 7.59%;
 }
 
 .newsletter__column1 {
   display: flex;
   align-items: center;
+  padding: 10%;
 
   .newsletter__img--mailbox {
     @include center;
@@ -85,7 +84,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
 }
 
 .newsletter__column3 {
@@ -127,13 +125,14 @@
 
 .social {
   @extend %grid-12col;
-  width: 100%;
-  height: 9.17%;
+  height: 40rem;
 }
 
 // ***************************************  SECTION6 LAYOUT ***************************************
 
 .resistance-training-section {
+  display: flex;
+  flex-direction: column;
   width: 55%;
   justify-content: space-between;
   align-items: flex-end;

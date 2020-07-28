@@ -7,14 +7,13 @@
 
 a:visited {
   text-decoration: none;
-  color: $blackFont;
+  color: inherit;
 }
 
 body {
   font-family: $font;
   background-color: $whiteBackground;
   width: 100%;
-  height: 7371px;
 }
 
 %grid-12col {
