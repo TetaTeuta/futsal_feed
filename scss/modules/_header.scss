@@ -17,7 +17,6 @@
   .nav__menu {
     @include font-props;
     display: flex;
-    height: 0.34%;
     width: 37.55%;
     list-style: none;
     color: $blackFont;
@@ -27,8 +26,6 @@
 
   .nav__link:hover {
     @include hover;
-    transition: all 0.7s;
-    opacity: 1;
   }
 
   .nav__button {

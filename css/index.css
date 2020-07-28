@@ -120,8 +120,8 @@ body {
 }
 
 .block__button:hover {
-  -webkit-transition: 0.1s opacity, 0.5s;
-  transition: 0.1s opacity, 0.5s;
+  -webkit-transition: 0.3s opacity, 0.5s;
+  transition: 0.3s opacity, 0.5s;
   -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
           box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
   opacity: 0.7;
@@ -140,8 +140,8 @@ body {
 }
 
 .block__button2:hover {
-  -webkit-transition: 0.1s opacity, 0.5s;
-  transition: 0.1s opacity, 0.5s;
+  -webkit-transition: 0.3s opacity, 0.5s;
+  transition: 0.3s opacity, 0.5s;
   -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
           box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
   opacity: 0.7;
@@ -338,7 +338,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 0.34%;
   width: 37.55%;
   list-style: none;
   color: #0c0c0c;
@@ -349,14 +348,11 @@ body {
 }
 
 .nav__container .nav__link:hover {
-  -webkit-transition: 0.1s opacity, 0.5s;
-  transition: 0.1s opacity, 0.5s;
+  -webkit-transition: 0.3s opacity, 0.5s;
+  transition: 0.3s opacity, 0.5s;
   -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
           box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
   opacity: 0.7;
-  -webkit-transition: all 0.7s;
-  transition: all 0.7s;
-  opacity: 1;
 }
 
 .nav__container .nav__button {
@@ -369,8 +365,8 @@ body {
 }
 
 .nav__container .nav__button:hover {
-  -webkit-transition: 0.1s opacity, 0.5s;
-  transition: 0.1s opacity, 0.5s;
+  -webkit-transition: 0.3s opacity, 0.5s;
+  transition: 0.3s opacity, 0.5s;
   -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
           box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
   opacity: 0.7;
@@ -568,8 +564,8 @@ body {
 }
 
 .form__button:hover {
-  -webkit-transition: 0.1s opacity, 0.5s;
-  transition: 0.1s opacity, 0.5s;
+  -webkit-transition: 0.3s opacity, 0.5s;
+  transition: 0.3s opacity, 0.5s;
   -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
           box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
   opacity: 0.7;
@@ -717,8 +713,8 @@ footer {
 }
 
 .footer__nav .footer__donate:hover {
-  -webkit-transition: 0.1s opacity, 0.5s;
-  transition: 0.1s opacity, 0.5s;
+  -webkit-transition: 0.3s opacity, 0.5s;
+  transition: 0.3s opacity, 0.5s;
   -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
           box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
   opacity: 0.7;
@@ -835,7 +831,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 0.34%;
   width: 37.55%;
   list-style: none;
   color: #0c0c0c;
@@ -846,14 +841,11 @@ body {
 }
 
 .nav__container .nav__link:hover {
-  -webkit-transition: 0.1s opacity, 0.5s;
-  transition: 0.1s opacity, 0.5s;
+  -webkit-transition: 0.3s opacity, 0.5s;
+  transition: 0.3s opacity, 0.5s;
   -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
           box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
   opacity: 0.7;
-  -webkit-transition: all 0.7s;
-  transition: all 0.7s;
-  opacity: 1;
 }
 
 .nav__container .nav__button {
@@ -866,8 +858,8 @@ body {
 }
 
 .nav__container .nav__button:hover {
-  -webkit-transition: 0.1s opacity, 0.5s;
-  transition: 0.1s opacity, 0.5s;
+  -webkit-transition: 0.3s opacity, 0.5s;
+  transition: 0.3s opacity, 0.5s;
   -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
           box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
   opacity: 0.7;
