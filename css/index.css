@@ -348,8 +348,15 @@ body {
   margin: 1%;
 }
 
-.nav__container .nav__menu > .nav__link {
-  margin: 2%;
+.nav__container .nav__link:hover {
+  -webkit-transition: 0.1s opacity, 0.5s;
+  transition: 0.1s opacity, 0.5s;
+  -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
+          box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
+  opacity: 0.7;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  opacity: 1;
 }
 
 .nav__container .nav__button {
@@ -838,8 +845,15 @@ body {
   margin: 1%;
 }
 
-.nav__container .nav__menu > .nav__link {
-  margin: 2%;
+.nav__container .nav__link:hover {
+  -webkit-transition: 0.1s opacity, 0.5s;
+  transition: 0.1s opacity, 0.5s;
+  -webkit-box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
+          box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
+  opacity: 0.7;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  opacity: 1;
 }
 
 .nav__container .nav__button {
