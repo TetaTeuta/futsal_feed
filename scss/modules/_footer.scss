@@ -9,12 +9,12 @@ footer {
   align-items: center;
   grid-column-gap: 0.5%;
   grid-row-gap: 10px;
-  height: 100%;
+  padding-top: 3%;
 }
 
 .footer__menu {
   color: $whiteBackground;
-  font-size: 14px;
+  font-size: 1em;
   letter-spacing: 0;
   line-height: 30px;
   margin-bottom: 43px;
